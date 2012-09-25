@@ -4,7 +4,7 @@
   - Standalone implementation 
 
  by Alexander Dubus
- adapted by Shikra
+ adapted by Shikra!
 */
 
 /* SUPORTED MULTIWII RELEASES - SUPORTED MULTIWII RELEASES  ********************
