@@ -1,0 +1,15 @@
+#summary How to configure Multiwii to work with LEDring
+
+= Supported releases =
+
+== Pre MultiWii 2.0 ==
+Not supported
+
+== MultiWii 2.0 and 2.1 ==
+
+=== option 1 - standard MultiWii ledring functionality ===
+find and enable //#define LED_RING in config.h
+
+=== option 2 - enhanced MultiWii ledring functionality === 
+replace led.ino with alternative led.ino from downloads
+find and enable //#define LED_RING in config.h
