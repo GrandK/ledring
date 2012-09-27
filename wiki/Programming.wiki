@@ -2,18 +2,23 @@
 
 = How to program the LEDring =
 
-Add your content here.
 
+== Step 1 - Set up the USB programmer ==
 
-== Details ==
+  * Download and install drivers need to be installed for your USB programmer. 
+  * This will not needed if you have already a programmer before - e.g. for a Multiwii board.
 
-STEP1 - Program LED board
-  * Drivers need to be installed for the USB programmer. This is probably not needed if used same pragrammer as for Multiwii board
+== Step 2 Modify the Arduino environment ==
+
   * LED Ring v3 uses Opti bootloader so Arduino IDE may need to be modified to allow programming. The following should work...
   * Use Arduino v1.0 or greater.
-  * Add the contents of included "Append to Boards.txt" into end of boards.txt which you will find in your arduino folder ...\hardware\arduino\boards.txt
+  * Add the contents of "Append to Boards.txt" into end of boards.txt which you will find in your arduino folder ...\hardware\arduino\boards.txt.
   * Restart Arduino IDE and you should see the LED board listed as a board option.
-  * Note - if you have multiple IDE's installed, need to amend the correct boards.txt file. If board does not show this is probably why.
-  * Now select the new board listed from Tools-->board-->MultiWiiCopter LEDring v3
-  * Open the LEDring.PDEsketch and program as normal
-  * Don't forget to set board back to program Multiwii !!
+  * Note - if you have multiple IDE's installed, you will need to amend the correct boards.txt file. If the board does not show this is probably why.
+
+== Step 3 - Upload to the LEDring board ==
+
+  * Connect the USB programmer to the LEDring.
+  * Select the new board listed from Tools-->board-->MultiWiiCopter LEDring v3.
+  * Open the LEDring.PDE sketch and click upload.
+  * Don't forget to set board back to program other boards like Multiwii !!
