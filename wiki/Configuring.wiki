@@ -21,3 +21,7 @@ This is carried out by editing the config section in the Ledring.ino sketch
 
   * I2C_address - option to select alternative to avoid clash. 
   * INTERNAL_I2C_PULLUPS - for specific hardware configurations.
+
+== Step 4 - Set the MAG direction ==
+
+  * reverse_mag - option for inverted boards (underside of your copter)
