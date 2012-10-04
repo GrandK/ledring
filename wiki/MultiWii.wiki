@@ -44,7 +44,7 @@ Ensure the following is set in the sketch uploaded to the LEDring board:
 == Pre MultiWii 2.0 ==
 Not supported
 ----
-== DEVELOPMENT ==
+== DEVELOPMENT releases==
 ----
 == MultiWii 2.2 dev releases ==
 
