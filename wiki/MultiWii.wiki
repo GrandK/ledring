@@ -3,10 +3,6 @@
 = Supported releases =
 
 ----
-== Pre MultiWii 2.0 ==
-Not supported
-
-----
 == MultiWii 2.1 ==
 
 === option 1 - standard MultiWii ledring functionality ===
@@ -30,6 +26,22 @@ Ensure the following is set in the sketch uploaded to the LEDring board:
 #define MultiWii_I2C_v2
 // #define MultiWii_I2C_v1 
 }}}
+
+----
+== MultiWii 2.0 ==
+
+=== standard MultiWii ledring functionality ===
+Find and enable //#define LED_RING in config.h
+Upload the new sketch to your MultiWii controller
+
+Ensure the following is set in the sketch uploaded to the LEDring board:
+{{{
+//#define MultiWii_I2C_v2
+#define MultiWii_I2C_v1
+}}} 
+
+== Pre MultiWii 2.0 ==
+Not supported
 
 ----
 == MultiWii 2.2 dev releases ==
