@@ -1,5 +1,5 @@
 /* 
- Multiwiicopter.com LED Ring
+ Multiwiicopter.com LED Ring 
   - I2C implementation for Multiwii
   - Standalone implementation 
 
