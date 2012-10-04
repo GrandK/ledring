@@ -13,7 +13,7 @@
   * LED Ring v3 uses Opti bootloader so Arduino IDE may need to be modified to allow programming. The following should work...
   * Use Arduino v1.0 or greater.
   * Add the contents of "Append to Boards.txt" into end of boards.txt which you will find in your arduino folder ...\hardware\arduino\boards.txt.
-  * Restart Arduino IDE and you should see the LED board listed as a board option.
+  * Restart Arduino IDE and you should see the LED board listed as a board option. Select this before programming.
   * Note - if you have multiple IDE's installed, you will need to amend the correct boards.txt file. If the board does not show this is probably why.
 
 == Step 3 - Upload to the LEDring board ==
