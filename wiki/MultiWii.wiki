@@ -1,6 +1,6 @@
 #summary How to configure Multiwii to work with LEDring
 
-= Supported releases =
+= Instructions - Supported releases =
 
 ----
 == MultiWii 2.1 ==
