@@ -205,7 +205,7 @@ void I2C_enhanced_mode(){
     LED_sequence(2);    
     break;
   case 'u': // Motors on - Angle mode
-    LED_sequence(1);    
+    LED_sequence(14);    
     break;
   case 't': // Motors off - Uncalibrated acc / not level
     LED_sequence(4);    
