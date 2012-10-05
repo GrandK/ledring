@@ -1,4 +1,4 @@
-#summary Configuration options for LEDring
+#summary How to configure LEDring
 
 This is carried out by editing the config section in the Ledring.ino sketch
 
