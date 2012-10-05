@@ -1,5 +1,8 @@
 /* 
- Multiwiicopter LED Ring - I2C implementation for Multiwii
+ Multiwiicopter LED Ring
+  - I2C implementation for Multiwii
+  - standalone implementation 
+  
  by Alexander Dubus
  adapted by Shikra
  
