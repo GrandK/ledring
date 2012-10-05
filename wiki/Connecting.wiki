@@ -1,0 +1,15 @@
+#summary Connecting up Hardware
+
+= MultiWii =
+
+Connect up the following:
+  * 5v
+  * SDA
+  * SCL
+  * Gnd
+
+
+= Programming =
+
+LEDring is Arduino based
+Connect up and program as per most other 6 pin arduino based devices
