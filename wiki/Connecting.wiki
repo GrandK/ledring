@@ -11,5 +11,5 @@ Connect up the following:
 
 = Programming =
 
-LEDring is Arduino based
-Connect up and program as per most other 6 pin arduino based devices
+The LEDring is Arduino based
+Connect up and program using a standard 6 pin usb--> serial programmer
