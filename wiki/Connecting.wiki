@@ -2,7 +2,7 @@
 
 = MultiWii =
 
-Connect up the following:
+Connect up the following between your arduino and the LEDring:
   * 5v
   * SDA
   * SCL
