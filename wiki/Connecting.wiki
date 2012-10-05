@@ -4,10 +4,11 @@
 
 Connect up the following between your arduino and the LEDring:
   * 5v
-  * SDA
-  * SCL
+  * SDA (can be either 5v or 3.3v)
+  * SCL (can be either 5v or 3.3v)
   * Gnd
 
+NOTE! - if LEDring pullups are defined, then only use with 5v SDA/SCL)
 
 = Programming =
 
